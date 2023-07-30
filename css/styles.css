@@ -1,5 +1,5 @@
 body {
-    background-color: #11131F;
+  background-color: #11131f;
 }
 
 h1,
@@ -9,191 +9,203 @@ h4,
 h5,
 h6,
 p {
-    margin: 0;
+  margin: 0;
 }
 
 img {
-    /* display: block;
+  /* display: block;
     max-width: 100%;
     height: auto; */
 }
 
 .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
 
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .list,
 ul,
 ol {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 a {
-    text-decoration: none;
-    color: currentColor;
+  text-decoration: none;
+  color: currentColor;
 }
 
 .container {
-    min-width: 320px;
-    max-width: 375px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-right: 20px;
-    padding-left: 20px;
+  min-width: 320px;
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 20px;
+  padding-left: 20px;
 
-    outline: 2px solid red;
-    outline-offset: -2px;
+  outline: 2px solid red;
+  outline-offset: -2px;
 }
 
 /*-----Tablet screen----*/
 @media only screen and (min-width: 768px) {
-    .container {
-        min-width: 768px;
-        outline: 2px solid green;
-        outline-offset: -2px;
-        padding-left: 32px;
-        padding-right: 32px;
-    }
+  .container {
+    min-width: 768px;
+    outline: 2px solid green;
+    outline-offset: -2px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
 }
 
 /*----- Desktop screen--*/
 @media only screen and (min-width: 1280px) {
-    .container {
-        min-width: 1280px;
-        outline: 2px solid goldenrod;
-        outline-offset: -2px;
-        padding-left: 32px;
-        padding-right: 32px;
-    }
+  .container {
+    min-width: 1280px;
+    outline: 2px solid goldenrod;
+    outline-offset: -2px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
 }
-.about {}
+.about {
+}
 
-.about-box-text {}
+.about-box-text {
+}
 
 @media only screen and (min-width: 768px) {
-    .about-box-text {
-        flex-direction: column;
-    }
+  .about-box-text {
+    flex-direction: column;
+  }
 }
 
 @media only screen and (min-width: 1280px) {
-    .about-box-text {
-        display: flex;
-        flex-direction: row;
-    }
+  .about-box-text {
+    display: flex;
+    flex-direction: row;
+  }
 }
 
 .about-yacht {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
-.about-yacht {}
+.about-yacht {
+}
 
 @media only screen and (min-width: 768px) {
-    .about-yacht {
-        margin-bottom: 32px;
-    }
+  .about-yacht {
+    margin-bottom: 32px;
+  }
 }
 
 .about-yacht-text {
-
-    color: var(--white, #F6F5EF);
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1.2;
-    max-width: 335px;
+  color: var(--white, #f6f5ef);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  max-width: 335px;
 }
 
 @media only screen and (min-width: 768px) {
-    .about-yacht-text {
-        font-size: 32px;
-        max-width: 514px;
-    }
+  .about-yacht-text {
+    font-size: 32px;
+    max-width: 514px;
+  }
 }
 
 .about-yacht-text-span {
-    font-size: 24px;
-    font-style: italic;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: -1.08px;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: -1.08px;
 
-    background: var(--linear-green, linear-gradient(107deg, #BEC7C2 0%, #A1B5BA 100%));
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  background: var(--linear-green, linear-gradient(107deg, #bec7c2 0%, #a1b5ba 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 @media only screen and (min-width: 768px) {
-    .about-yacht-text-span {
-        font-size: 32px;
-        letter-spacing: -1.44px;
-    }
+  .about-yacht-text-span {
+    font-size: 32px;
+    letter-spacing: -1.44px;
+  }
 }
 
 .about-list {
-    display: inline-flex;
-    align-items: flex-start;
-    gap: 14px;
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 14px;
 }
 
 @media only screen and (min-width: 768px) {
-    .about-list {
-        display: inline-flex;
-        align-items: flex-start;
-        gap: 32px;
-        margin-left: 302px;
-    }
+  .about-list {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 32px;
+    margin-left: 302px;
+  }
 }
 
 .about-item {
-    color: var(--white, #F6F5EF);
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    max-width: 160px;
+  color: var(--white, #f6f5ef);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  max-width: 160px;
 }
 
 @media only screen and (min-width: 768px) {
-    .about-item {
-        font-size: 16px;
-        line-height: 1.4;
-        max-width: 183px;
-    }
+  .about-item {
+    font-size: 16px;
+    line-height: 1.4;
+    max-width: 183px;
+  }
 }
 
+.about-yacht-one {
+  margin-top: 40px;
+}
 
+@media only screen and (min-width: 768px) {
+  .about-yacht-one {
+    margin-top: 64px;
+  }
+}
 
+.about-yacht-two {
+  margin-top: 24px;
+}
 
+@media only screen and (min-width: 768px) {
+  .about-yacht-two {
+    margin-top: 32px;
+  }
+}
 
+.about-yacht-three {
+  margin-top: 24px;
+  margin-left: 75px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media only screen and (min-width: 768px) {
+  .about-yacht-three {
+    margin-top: 24px;
+    margin-left: 372px;
+    top: 98px;
+  }
+}

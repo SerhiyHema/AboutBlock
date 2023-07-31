@@ -53,7 +53,7 @@ a {
   padding-right: 20px;
   padding-left: 20px;
 
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
   outline-offset: -2px;
 }
 
@@ -61,7 +61,7 @@ a {
 @media only screen and (min-width: 768px) {
   .container {
     min-width: 768px;
-    outline: 2px solid green;
+    /* outline: 2px solid green; */
     outline-offset: -2px;
     padding-left: 32px;
     padding-right: 32px;
@@ -72,7 +72,7 @@ a {
 @media only screen and (min-width: 1280px) {
   .container {
     min-width: 1280px;
-    outline: 2px solid goldenrod;
+    /* outline: 2px solid goldenrod; */
     outline-offset: -2px;
     padding-left: 32px;
     padding-right: 32px;
@@ -94,6 +94,7 @@ a {
   .about-box-text {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
   }
 }
 
@@ -204,8 +205,36 @@ a {
 
 @media only screen and (min-width: 768px) {
   .about-yacht-three {
+    position: relative;
     margin-top: 24px;
     margin-left: 372px;
-    top: 98px;
+    bottom: 113px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .about-images {
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .about-yacht-one {
+    position: relative;
+    left: 372px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .about-yacht-two {
+    position: relative;
+    bottom: 268px;
+    left: 16px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .about-yacht-three {
+    position: relative;
+    bottom: 305px;
   }
 }
